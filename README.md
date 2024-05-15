@@ -23,12 +23,10 @@ Contains information about the authors.
 - `rating_counts`: Number of ratings received by the author's books.
 
 ### 2. `genres_pages_x_books.csv`
-Links books to their genres and includes additional information.
+Links books to their genres and number of pages.
 - `book_id`: Unique identifier for the book.
-- `authors`: Authors of the book.
-- `similar_books`: List of similar books.
-- `publication_year`: Year the book was published.
-- `title`: Title of the book.
+- `<genre>`: A variable for each genre which represents the probability of the book belonging to it.
+- `num_pages`: Number of pages the book has.
 
 ### 3. `interactions_sample.csv`
 Contains user interactions with the books.
@@ -36,6 +34,15 @@ Contains user interactions with the books.
 - `book_id`: Unique identifier for the book.
 - `is_read`: Whether the user has read the book (1 if read, 0 otherwise).
 - `rating`: Rating given by the user.
+
+### 4. `books_sample.csv`
+Contains user interactions with the books.
+- `book_id`: Unique identifier for the book.
+- `authors`: List of authors identifiers involved in the book.
+- `similar_books`: List of authors identifiers involved in the book.
+- `publication_year`: String defining the year the book was published.
+- `title`: Title of the book.
+
 
 ## Preprocessing
 
