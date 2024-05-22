@@ -1,4 +1,4 @@
-book_id,authors,similar_books,publication_year,title,writters,illustrators,contributors,editors,translators
+book_id,authors,similar_books,publication_year,title,writers,illustrators,contributors,editors,translators
 977525,"[{'author_id': '73435', 'role': ''}]",[],1999.0,A Boy in Winter,['73435'],[],[],[],[]
 38569,"[{'author_id': '21706', 'role': ''}]",[],2001.0,The Sound Bite Society: How Television Helps the Right and Hurts the Left,['21706'],[],[],[],[]
 38568,"[{'author_id': '17059', 'role': ''}]","['225669', '50789', '383143', '293616', '759600', '263178', '46481', '780878']",2005.0,A Quick Bite (Argeneau #1),['17059'],[],[],[],[]
